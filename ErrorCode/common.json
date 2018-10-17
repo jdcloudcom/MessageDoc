@@ -1,0 +1,21 @@
+{
+	"code": 400,
+	"message": "{{.param0}}参数不支持",
+	"status": "ARGUMENT_NOT_SUPPORT"
+}, {
+	"code": 400,
+	"message": "{{.param0}}不能为空",
+	"status": "ARGUMENT_NOT_FOUND"
+}, {
+	"code": 403,
+	"message": "没有权限",
+	"status": "HTTP_FORBIDDEN"
+}, {
+	"code": 404,
+	"message": "{{.param0}}资源不存在",
+	"status": "NOT_FOUND"
+}, {
+	"code": 500,
+	"message": "操作失败",
+	"status": "INTERNAL"
+}]

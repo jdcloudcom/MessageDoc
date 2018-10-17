@@ -1,133 +1,129 @@
 [{
-	"code": 200,
-	"message": "成功",
-	"status": "SUCCESS"
-}, {
 	"code": 400,
 	"message": "{{.param0}}参数不支持",
-	"status": "ARGUMENT_NOT_SUPPORT"
+	"status": "APIGATEWAY_ARGUMENT_NOT_SUPPORT"
 }, {
 	"code": 400,
 	"message": "{{.param0}}不能为空",
-	"status": "ARGUMENT_NOT_FOUND"
+	"status": "APIGATEWAY_ARGUMENT_NOT_FOUND"
 }, {
 	"code": 403,
 	"message": "没有权限",
-	"status": "HTTP_FORBIDDEN"
+	"status": "APIGATEWAY_HTTP_FORBIDDEN"
 }, {
 	"code": 404,
 	"message": "{{.param0}}资源不存在",
-	"status": "NOT_FOUND"
+	"status": "APIGATEWAY_NOT_FOUND"
 }, {
 	"code": 500,
 	"message": "操作失败",
-	"status": "INTERNAL"
+	"status": "APIGATEWAY_INTERNAL"
 }, {
 	"code": 409,
 	"message": "分组名称重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "分组中后端服务前缀名重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "API名称重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "签名访问密钥重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "授权访问密钥重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "策略名称重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 500,
 	"message": "要验证的接口的对应的body定义异常",
-	"status": "INTERNAL"
+	"status": "APIGATEWAY_INTERNAL"
 }, {
 	"code": 400,
 	"message": "流控策略绑定分组多于一个",
-	"status": "FAILED_PRECONDITION"
+	"status": "APIGATEWAY_FAILED_PRECONDITION"
 }, {
 	"code": 400,
 	"message": "未解除绑定，不能删除",
-	"status": "FAILED_PRECONDITION"
+	"status": "APIGATEWAY_FAILED_PRECONDITION"
 }, {
 	"code": 404,
 	"message": "该分组没有有效的API",
-	"status": "RESOURCE_NOT_EXIST"
+	"status": "APIGATEWAY_RESOURCE_NOT_EXIST"
 }, {
 	"code": 404,
 	"message": "不存在要验证的接口",
-	"status": "RESOURCE_NOT_EXIST"
+	"status": "APIGATEWAY_RESOURCE_NOT_EXIST"
 }, {
 	"code": 404,
 	"message": "yaml文件不能为空",
-	"status": "RESOURCE_NOT_EXIST"
+	"status": "APIGATEWAY_RESOURCE_NOT_EXIST"
 }, {
 	"code": 500,
 	"message": "yaml文件解析异常",
-	"status": "INVALID_ARGUMENT"
+	"status": "APIGATEWAY_INVALID_ARGUMENT"
 }, {
 	"code": 409,
 	"message": "API路径重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 409,
 	"message": "创建业务线分组名称重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 400,
 	"message": "请在下面的查询参数Parameter Path中定义此路径参数:{{.param0}}",
-	"status": "ARGUMENT_NOT_FOUND"
+	"status": "APIGATEWAY_ARGUMENT_NOT_FOUND"
 }, {
 	"code": 409,
 	"message": "新增修订版本号重复",
-	"status": "ALREADY_EXISTS"
+	"status": "APIGATEWAY_ALREADY_EXISTS"
 }, {
 	"code": 403,
 	"message": "没有备案",
-	"status": "DOMAIN_IS_NOT_RECORDED"
+	"status": "APIGATEWAY_DOMAIN_IS_NOT_RECORDED"
 }, {
 	"code": 403,
 	"message": "域名已存在",
-	"status": "DOMAIN_IS_ALREADY_EXISTS"
+	"status": "APIGATEWAY_DOMAIN_IS_ALREADY_EXISTS"
 }, {
 	"code": 403,
 	"message": "域名处于绑定状态，无法修改",
-	"status": "DOMAIN_IS_BINDED"
+	"status": "APIGATEWAY_DOMAIN_IS_BINDED"
 }, {
 	"code": 403,
 	"message": "域名数量超过最大值",
-	"status": "DOMAINS_NUMBER_IS_OVER_MAX"
+	"status": "APIGATEWAY_DOMAINS_NUMBER_IS_OVER_MAX"
 }, {
 	"code": 404,
 	"message": "无效的keyID",
-	"status": "KEYID_NOT_EXIST"
+	"status": "APIGATEWAY_KEYID_NOT_EXIST"
 }, {
 	"code": 400,
 	"message": "无效的用户pin",
-	"status": "LACK_OF_PIN_OR_USERID"
+	"status": "APIGATEWAY_LACK_OF_PIN_OR_USERID"
 }, {
 	"code": 400,
 	"message": "API分组已经部署，不能被删除",
-	"status": "FAILED_PRECONDITION"
+	"status": "APIGATEWAY_FAILED_PRECONDITION"
 }, {
 	"code": 400,
 	"message": "仍有上线版本，不能删除",
-	"status": "FAILED_PRECONDITION"
+	"status": "APIGATEWAY_FAILED_PRECONDITION"
 }, {
 	"code": 500,
 	"message": "服务未开通或已停止",
-	"status": "INVALID_SERVICE_STATUS"
+	"status": "APIGATEWAY_INVALID_SERVICE_STATUS"
 }, {
 	"code": 500,
 	"message": "该用户未进行实名认证",
-	"status": "THE_USER_NEED_REAL_NAME_AUTHENTICATION"
+	"status": "APIGATEWAY_THE_USER_NEED_REAL_NAME_AUTHENTICATION"
 }]
