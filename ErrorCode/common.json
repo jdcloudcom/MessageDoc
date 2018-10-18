@@ -1,4 +1,4 @@
-{
+[{
 	"code": 400,
 	"message": "{{.param0}}参数不支持",
 	"status": "ARGUMENT_NOT_SUPPORT"
