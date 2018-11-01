@@ -12,7 +12,7 @@
   "status": "ARGUMENT_WRONG_FORMAT"
 }, {
   "code": 400,
-  "message": "参数{{.argument}}取值不合法;参数{{.augument}}取值应该介于{{.operand1}}和{{.operand2}}之间;参数{{.augument}}取值应该{{.param}}{{.operand1}}",
+  "message": "参数{{.argument}}取值不合法;参数{{.argument}}取值应该介于{{.operand1}}和{{.operand2}}之间;参数{{.argument}}取值应该{{.param}}{{.operand1}}",
   "status": "OUT_OF_RANGE"
 }, {
   "code": 400,
