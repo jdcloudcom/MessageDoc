@@ -1,0 +1,97 @@
+[{
+  "code": 400,
+  "message": "Parameter {{.argument}} not supported",
+  "status": "ARGUMENT_NOT_SUPPORT"
+},{
+  "code": 400,
+  "message": "Parameter {{.argument}} required",
+  "status": "ARGUMENT_NOT_FOUND"
+}, {
+  "code": 400,
+  "message": "The type of parameter {{.argument}} shall be {{.format}}",
+  "status": "ARGUMENT_WRONG_FORMAT"
+}, {
+  "code": 400,
+  "message": "The value of parameter {{.argument}} is invalid; the value of parameter {{.argument}} shall be between {{.operand1}} and {{.operand2}}; the value of parameter {{.argument}} shall be {{.param}}{{.operand1}}",
+  "status": "OUT_OF_RANGE"
+}, {
+  "code": 400,
+  "message": "No parameter {{.argument}} for resource {{.resource}}",
+  "status": "ARGUMENT_MISMATCH"
+}, {
+  "code": 400,
+  "message": "Parameter {{.argument}} with error",
+  "status": "INVALID_ARGUMENT"
+}, {
+  "code": 400,
+  "message": "Resource {{.resource}} is not available for current operation in the current state",
+  "status": "FAILED_PRECONDITION"
+}, {
+  "code": 401,
+  "message": "Verification failed",
+  "status": "UNAUTHENTICATED"
+}, {
+  "code": 403,
+  "message": "No permission {{.permission}} for resource {{.resource}}",
+  "status": "HTTP_FORBIDDEN"
+}, {
+  "code": 404,
+  "message": "Resource {{.resource}} not existed",
+  "status": "RESOURCE_NOT_EXIST"
+}, {
+  "code": 404,
+  "message": "{{.resource}} not found",
+  "status": "NOT_FOUND"
+}, {
+  "code": 409,
+  "message": "Currently inoperable {{.resource}}",
+  "status": "ABORTED"
+}, {
+  "code": 409,
+  "message": "Existing {{.resource}}",
+  "status": "ALREADY_EXISTS"
+}, {
+  "code": 429,
+  "message": "Insufficient quota, with remaining quota: {{.limit}}",
+  "status": "QUOTA_EXCEEDED"
+}, {
+  "code": 429,
+  "message": "Requests Exceeded Limit",
+  "status": "RATE_LIMIT_EXCEEDED"
+}, {
+  "code": 499,
+  "message": "Cancel Operation",
+  "status": "CANCELLED"
+}, {
+  "code": 500,
+  "message": "Unknown Error",
+  "status": "UNKNOWN"
+}, {
+  "code": 500,
+  "message": "Internal Error",
+  "status": "INTERNAL"
+}, {
+  "code": 501,
+  "message": "{{.method}} currently unsupported",
+  "status": "NOT_IMPLEMENTED"
+}, {
+  "code": 502,
+  "message": "Unavailable Origin Server",
+  "status": "SOURCE_UNAVAILABLE"
+}, {
+  "code": 503,
+  "message": "Unavailable Service",
+  "status": "UNAVAILABLE"
+}, {
+  "code": 504,
+  "message": "Time-out",
+  "status": "DEADLINE_EXCEEDED"
+}, {
+  "code": 409,
+  "message": "The parent resources to which the two resources belong are inconsistent",
+  "status": "CONFLICT"
+}, {
+  "code": 409,
+  "message": "Multiple parameters are size dependent",
+  "status": "FAILED_PRECONDITION"
+}]
