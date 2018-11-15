@@ -116,7 +116,7 @@
 	"status": "APIGATEWAY_NONE_VALID_PIN"
 }, {
 	"code": 400,
-	"message": "API分组已经部署，不能被删除",
+	"message": "该分组已发布，不能修改",
 	"status": "APIGATEWAY_MODIFY_ERROR"
 }, {
 	"code": 400,
