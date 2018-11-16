@@ -116,7 +116,7 @@
 	"status": "APIGATEWAY_NONE_VALID_PIN"
 }, {
 	"code": 400,
-	"message": "Already deployed API grouping cannot be deleted",
+	"message": "Released grouping cannot be modified",
 	"status": "APIGATEWAY_MODIFY_ERROR"
 }, {
 	"code": 400,
