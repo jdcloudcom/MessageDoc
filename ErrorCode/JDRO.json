@@ -1,0 +1,52 @@
+[
+    {
+        "code": 429,
+        "message": "quota limited is {{.limit}}",
+        "status": "JDRO_QUOTA_LIMITED"
+    },
+    {
+        "code": 400,
+        "message": "some params has error: {{.params}}",
+        "status": "JDRO_VALIDATE_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "another engine is to delete stack {{.resource}}",
+        "status": "JDRO_STACK_DELETING"
+    },
+    {
+        "code": 400,
+        "message": "stack {{.resource}} has been deleted",
+        "status": "JDRO_STACK_DELETED"
+    },
+    {
+        "code": 400,
+        "message": "Faile to get resource {{.resource}}",
+        "status": "JDRO_GET_RESOURCE_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "Faile to build template",
+        "status": "JDRO_TEMPLATE_BUILD_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "result error",
+        "status": "JDRO_RESULT_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "not surport template version",
+        "status": "JDRO_TEMPLATE_VERSION_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "changeSet has been executed",
+        "status": "JDRO_CHANGE_SET_HAS_BEEN_EXECUTED"
+    },
+    {
+        "code": 400,
+        "message": "changeSet cannot be executed in its current execution status of OBSOLETE",
+        "status": "JDRO_CHANGE_SET_OBSOLETE"
+    }
+]
