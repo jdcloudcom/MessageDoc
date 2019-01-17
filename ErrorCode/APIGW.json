@@ -74,4 +74,28 @@
 	"code": 404,
 	"message": "服务未注册",
 	"status": "APIGW_SERVICE_NOT_FOUND"
+}, {
+	"code": 400,
+	"message": "缺少header参数{{.param0}}",
+	"status": "APIGW_NO_HEADER"
+}, {
+	"code": 400,
+	"message": "参数{{.param0}}值不合法",
+	"status": "APIGW_PARAM_VALUE_INVALID"
+}, {
+	"code": 400,
+	"message": "参数{{.param0}}不存在",
+	"status": "APIGW_PARAMS_NOT_EXIST"
+}, {
+	"code": 403,
+	"message": "密钥个数超出{{.param0}}",
+	"status": "APIGW_KEY_NUMBER_OVER"
+}, {
+	"code": 403,
+	"message": "{{.param0}}已存在",
+	"status": "APIGW_RECORD_CONFLICT"
+}, {
+	"code": 404,
+	"message": "{{.param0}}不存在",
+	"status": "APIGW_RECORD_NOT_FOUND"
 }]
