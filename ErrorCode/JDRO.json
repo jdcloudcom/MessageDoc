@@ -1,45 +1,5 @@
 [
     {
-        "code": 429,
-        "message": "数量限制为不能超过{{.limit}}",
-        "status": "JDRO_QUOTA_LIMITED"
-    },
-    {
-        "code": 400,
-        "message": "以下参数有误：{{.params}}",
-        "status": "JDRO_VALIDATE_ERROR"
-    },
-    {
-        "code": 400,
-        "message": "堆栈 {{.resource}} 正在被其他引擎删除中",
-        "status": "JDRO_STACK_DELETING"
-    },
-    {
-        "code": 400,
-        "message": "堆栈 {{.resource}} 已经被删除",
-        "status": "JDRO_STACK_DELETED"
-    },
-    {
-        "code": 400,
-        "message": "获取资源{{.resource}}失败",
-        "status": "JDRO_GET_RESOURCE_ERROR"
-    },
-    {
-        "code": 400,
-        "message": "构建模板失败",
-        "status": "JDRO_TEMPLATE_BUILD_ERROR"
-    },
-    {
-        "code": 400,
-        "message": "结果错误",
-        "status": "JDRO_RESULT_ERROR"
-    },
-    {
-        "code": 400,
-        "message": "不支持的版本号",
-        "status": "JDRO_TEMPLATE_VERSION_ERROR"
-    },
-    {
         "code": 400,
         "message": "更改集已被执行",
         "status": "JDRO_CHANGE_SET_HAS_BEEN_EXECUTED"
@@ -48,5 +8,50 @@
         "code": 400,
         "message": "更改集已过期",
         "status": "JDRO_CHANGE_SET_OBSOLETE"
+    },
+    {
+        "code": 400,
+        "message": "获取资源{{.resource}}失败",
+        "status": "JDRO_GET_RESOURCE_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "结果错误",
+        "status": "JDRO_RESULT_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "堆栈 {{.resource}} 已经被删除",
+        "status": "JDRO_STACK_DELETED"
+    },
+    {
+        "code": 400,
+        "message": "堆栈 {{.resource}} 正在被其他引擎删除中",
+        "status": "JDRO_STACK_DELETING"
+    },
+    {
+        "code": 400,
+        "message": "资源栈名称已经存在",
+        "status": "JDRO_STACK_NAME_EXISTS_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "构建模板失败",
+        "status": "JDRO_TEMPLATE_BUILD_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "不支持的版本号",
+        "status": "JDRO_TEMPLATE_VERSION_ERROR"
+    },
+    {
+        "code": 400,
+        "message": "以下参数有误：{{.params}}",
+        "status": "JDRO_VALIDATE_ERROR"
+    },
+    {
+        "code": 429,
+        "message": "数量限制为不能超过{{.limit}}",
+        "status": "JDRO_QUOTA_LIMITED"
     }
 ]
