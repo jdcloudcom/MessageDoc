@@ -1,0 +1,202 @@
+﻿[
+    {
+        "code": 500,
+        "status": "JDSF_SERVICE_INTERNAL_ERROR ",
+        "message": "服务器内部错误"
+    },
+    {
+        "code": 401,
+        "status": "JDSF_UNAUTHORIZED_USER",
+        "message": "用户未认证 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_CONFIG_PUBLISH_VERSION_NOT_FOUND",
+        "message": "未找到已发布的配置版本 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_CONFIG_PUBLISH_PRE_VERSION_NOT_FOUND",
+        "message": "未找到当前发布版本的上一个版本 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_CONFIG_NOT_FOUND",
+        "message": "未找到应用配置 "
+    },
+    {
+        "code": 500,
+        "status": "JDSF_ROLL_BACK_ERROR",
+        "message": "配置回滚失败 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGISTRY_SPEC_REDUCE_NOT_ALLOWED",
+        "message": "注册中心不能进行降配操作 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_ILLEGAL_ARGUMENT_EXCEPTION",
+        "message": "参数错误：{{.paramName}}不正确"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REACH_PRODUCT_LIMIT",
+        "message": "已达到可使用的产品实例数上限{{.count}},如需要继续创建，请提交工单申请 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_REGISTRY_SPEC_NOT_FOUND",
+        "message": "未找到注册中心规格信息 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGISTRY_NAME_MUST_ONLY",
+        "message": "在同一区域内，注册中心名称必须唯一，请修改后重试 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_TRACE_SPEC_NOT_FOUND",
+        "message": "未找到调用链配置规格信息 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_APP_CONFIG_PUBLISH_VERSION_ROLLBACK_NOT_ALLOWED",
+        "message": "不允许进行回滚当前版本的操作 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_CONFIG_VERSION_NOT_FOUND",
+        "message": "未找到应用配置的版本信息 "
+    },
+    {
+        "code": 403,
+        "status": "JDSF_OPERATION_NOT_ALLOWED",
+        "message": "无权进行当前操作 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_REGISTRY_NOT_FOUND",
+        "message": "未找到注册中心信息 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_DEPLOY_APP_NOT_FOUND",
+        "message": "未找到云部署 app 信息"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_BILLING_NOT_ALLOW_DELETE_RESOURCE",
+        "message": "订单服务不允许删除当前资源 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_TRACE_CLUSTER_NOT_FOUND",
+        "message": "未找到调用链实例"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_VPC_NOT_FOUND",
+        "message": "未找到虚拟网络资源 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_SUBNET_NOT_FOUND",
+        "message": "未找到虚拟网络子网资源 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_APP_CONFIG_VERSION_EXIST",
+        "message": "参数错误：应用配置版本必须唯一，请重试 "
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_CONFIG_PARENT_VERSION_NOT_FOUND",
+        "message": "参数错误：未找到当前版本的父版本信息"
+    },
+    {
+        "code": 403,
+        "status": "JDSF_APP_CONFIG_VERSION_DELETE_NOT_ALLOW",
+        "message": "不能进行删除当前配置版本的操作"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_CHARGE_MODE_NOT_SUPPORT",
+        "message": "计费模式不支持"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_APP_NAME_EXIST",
+        "message": "云部署应用名称必须唯一"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_NOT_FOUND",
+        "message": "未找到云部署应用"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_TRACE_SPEC_REDUCE_NOT_ALLOWED",
+        "message": "链路追踪产品不能进行降配操作"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_REQUEST_PATH_NOT_FOUND",
+        "message": "参数错误：未找到请求路径 {{.method}} {{.url}} "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGISTRY_SPEC_NOT_CHANGE",
+        "message": "注册中心规格变更失败，当前请求无效 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_ARGUMENT_RANGE_EXCEPTION",
+        "message": "参数错误：{{.paramName}} 超出允许范围"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PUBLISH_STORAGE_TYPE_NOT_FOUND",
+        "message": "未找到应用配置发布存储资源类型 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PUBLISH_SOURCE_TYPE_NOT_FOUND",
+        "message": "未找到应用配置发布资源类型 "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PARAM_NULL_OR_EMPTY",
+        "message": "参数错误： {{.paramName}} 不能为空或者 null"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PARAM_NULL",
+        "message": "参数错误：{{.paramName}} 不能为null"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_MAX_LENGTH",
+        "message": "参数错误：{{.paramName}} 最大长度为 {{.length}} "
+    },
+    {
+        "code": 400,
+        "status": "JDSF_CONTAIN_PATTERN",
+        "message": "参数错误：{{.paramName}} 只能包含 {{.patternString}}"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_FORMAT_PATTERN",
+        "message": "参数错误：{{.paramName}} 只能匹配 {{.patternString}} 格式"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_VERSION_PATTERN",
+        "message": "参数错误：版本参数 {{.paramName}} 格式必须为{主版本号}.{子版本号}.{修正版本号}，每个区间范围0-999"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGION_NOT_SUPPORT",
+        "message": "参数错误：您请求的 Region 当前不支持创建资源"
+    }
+]
