@@ -45,7 +45,7 @@
 	"status": "APIGW_OPERATION_NOT_ALLOWED"
 }, {
 	"code": 403,
-	"message": "您无权在资源（{{9.param0}}）上执行（{{.param1}}）【网关】",
+	"message": "您无权在资源（{{.param0}}）上执行（{{.param1}}）【网关】",
 	"status": "APIGW_CHILD_ACCOUNT_NOT_ALLOWED"
 }, {
 	"code": 403,
