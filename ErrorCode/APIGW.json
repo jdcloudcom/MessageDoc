@@ -1,14 +1,19 @@
 [{
 	"code": 401,
+	"message": "参数{{.param0}}不存在【网关】",
+	"status": "APIGW_LACK_PARAMS"
+},
+{
+	"code": 400,
 	"message": "参数{{.param0}}不存在",
 	"status": "APIGW_LACK_PARAMS"
-}, {
-	"code": 401,
-	"message": "请求含有非法头信息{{.param0}}",
+},{
+	"code": 403,
+	"message": "请求含有非法头信息{{.param0}}【网关】",
 	"status": "APIGW_ILLEGAL_HEADER"
 }, {
-	"code": 401,
-	"message": "错误的密钥",
+	"code": 403,
+	"message": "错误的密钥【网关】",
 	"status": "APIGW_KEY_NOT_EXITST"
 }, {
 	"code": 401,
@@ -16,39 +21,39 @@
 	"status": "APIGW_KEY_DISABLED"
 }, {
 	"code": 401,
-	"message": "签名不一致",
+	"message": "签名不一致【网关】",
 	"status": "APIGW_SIGN_RESULT_NOT_SAME"
 }, {
 	"code": 403,
-	"message": "此接口不允许调用 ",
+	"message": "此接口不允许调用【网关】 ",
 	"status": "APIGW_API_NOT_ALLOWED"
 }, {
 	"code": 403,
-	"message": "参数{{.param0}}格式错误",
+	"message": "参数{{.param0}}格式错误【网关】",
 	"status": "APIGW_FORMAT_ERROR"
 }, {
-	"code": 403,
-	"message": "黑名单用户",
+	"code": 401,
+	"message": "黑名单用户【网关】",
 	"status": "APIGW_USER_BLACK_LIST"
 }, {
 	"code": 403,
-	"message": "重复访问",
+	"message": "重复访问【网关】",
 	"status": "APIGW_NONCE_CONFLICT"
 }, {
 	"code": 403,
-	"message": "不允许的操作",
+	"message": "不允许的操作【网关】",
 	"status": "APIGW_OPERATION_NOT_ALLOWED"
 }, {
 	"code": 403,
-	"message": "您无权在资源（{{.param0}}）上执行（{{.param1}}）",
+	"message": "您无权在资源（{{9.param0}}）上执行（{{.param1}}）【网关】",
 	"status": "APIGW_CHILD_ACCOUNT_NOT_ALLOWED"
 }, {
 	"code": 403,
-	"message": "‘x-jdcloud-security-token’不存在",
+	"message": "‘x-jdcloud-security-token’不存在【网关】",
 	"status": "APIGW_SECURITY_TOKEN_NOT_EXIST"
 }, {
 	"code": 403,
-	"message": "用户不存在",
+	"message": "用户不存在【网关】",
 	"status": "APIGW_USER_NOT_EXITST"
 }, {
 	"code": 403,
@@ -60,15 +65,15 @@
 	"status": "USER_NOT_ACTIVATED"
 }, {
 	"code": 403,
-	"message": "没有操作权限",
+	"message": "没有操作权限【网关】",
 	"status": "APIGW_MFA_FAIL"
 }, {
 	"code": 403,
-	"message": "不支持角色用户",
+	"message": "不支持角色用户【网关】",
 	"status": "APIGW_ROLE_NOT_ALLOWED"
 }, {
 	"code": 403,
-	"message": "角色用户不存在",
+	"message": "角色用户不存在【网关】",
 	"status": "APIGW_ROLE_NOT_EXITST"
 }, {
 	"code": 404,
@@ -98,4 +103,8 @@
 	"code": 404,
 	"message": "{{.param0}}不存在",
 	"status": "APIGW_RECORD_NOT_FOUND"
+}, {
+  "code": 500,
+  "message": "服务未开通或已停止",
+  "status": "APIGW_INVALID_SERVICE_STATUS"
 }]
