@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "code": 500,
         "status": "JDSF_SERVICE_INTERNAL_ERROR ",
@@ -198,5 +198,65 @@
         "code": 400,
         "status": "JDSF_REGION_NOT_SUPPORT",
         "message": "参数错误：您请求的 Region 当前不支持创建资源"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_SPEC_NOT_FOUND",
+        "message": "未发现当前微服务网关配置"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_INSTANCE_NOT_FOUND",
+        "message": "微服务网关资源未找到"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_INSTANCE_NOT_RUNNING",
+        "message": "微服务网关实例未运行"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_SPEC_REDUCE_NOT_ALLOWED",
+        "message": "当前微服务网关实例不允许降配"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_NAME_REPEAT_NOT_ALLOW",
+        "message": "同一用户，同一区域下，实例名称不允许重复"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_API_GROUP_DEPLOYED_DELETE_NOT_ALLOW",
+        "message": "API分组已部署不允许删除"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_API_GROUP_PRE_UNBIND_ERROR",
+        "message": "预解绑分组失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_API_GROUP_PRE_BIND_ERROR",
+        "message": "预绑定分组失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_APP_BIND_ERROR",
+        "message": "应用绑定失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_MICRO_SERVICE_GATEWAY_INSTANCE_DELETE_ERROR",
+        "message": "微服务网关删除错误"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_FORWARD_ADDRESS_NOT_IN_VPC",
+        "message": "转发地址未在VPC内"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_FORWARD_ADDRESS_FORMAT_NOT_SUPPORT",
+        "message": "转发地址格式不支持"
     }
 ]
