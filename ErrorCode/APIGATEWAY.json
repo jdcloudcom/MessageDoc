@@ -130,4 +130,120 @@
 	"code": 500,
 	"message": "The user has not completed real-name verification",
 	"status": "APIGATEWAY_INVALID_AUTHENTICATION_STATUS"
+},{
+  "code": 400,
+  "message": "{{.param0}} resource invalid",
+  "status": "APIGATEWAY_INVALID_ARGUMENT"
+},	{
+  "code": 409,
+  "message": "{{.param0}} resource repeated",
+  "status": "APIGATEWAY_RESOURCE_ISREPEAT"
+},	{
+  "code": 409,
+  "message": "subscriptionkey repeated",
+  "status": "APIGATEWAY_SUBSCRIPTIONKEY_ISREPEAT"
+},	{
+  "code": 404,
+  "message": "The group is not deployed",
+  "status": "APIGATEWAY_APIGROUP_NOT_DEPLOY"
+},	{
+  "code": 500,
+  "message": "yaml pares swagger error,，{{.param0}} param can not be null",
+  "status": "APIGATEWAY_SWAGGER_PARSE_ERROR_PARAMETER"
+},	{
+  "code": 403,
+  "message": "the number of key exceeds the maximum",
+  "status": "APIGATEWAY_KEY_NUM_IS_MAX"
+},	{
+  "code": 403,
+  "message": "the number of param exceeds the maximum",
+  "status": "APIGATEWAY_PARAM_NUM_IS_MAX"
+},	{
+  "code": 400,
+  "message": "jdsf gateway is invalid",
+  "status": "APIGATEWAY_NONE_VALID_JDSF_GATEWAY"
+},	{
+  "code": 400,
+  "message": "vpc upstream url is invalid",
+  "status": "APIGATEWAY_NONE_VALID_VPC_UPSTREAM_URL"
+},	{
+  "code": 400,
+  "message": "the type of authorization is invalid",
+  "status": "APIGATEWAY_NONE_VALID_AUTH_USER_TYPE"
+},	{
+  "code": 404,
+  "message": "the group has not access authorization",
+  "status": "APIGATEWAY_BIND_GROUP_NOT_FOUND"
+},	{
+  "code": 404,
+  "message": "jdsf group not existed",
+  "status": "APIGATEWAY_JDSF_GROUP_NOT_FOUND"
+},	{
+  "code": 404,
+  "message": "the group of {{.param0}} is not binded with jdsf gateway of {{.param1}}",
+  "status": "APIGATEWAY_JDSF_GROUP_NO_BIND"
+},	{
+  "code": 404,
+  "message": "the jdsf gateway is bounded with other group",
+  "status": "APIGATEWAY_JDSF_GATEWAY_IS_BOUND"
+},	{
+  "code": 404,
+  "message": "the group is bounded",
+  "status": "APIGATEWAY_API_GROUP_IS_BOUND"
+},	{
+  "code": 404,
+  "message": "the group can't bind jdsf gateway for the moment",
+  "status": "APIGATEWAY_API_GROUP_IS_LOCKED"
+},	{
+  "code": 400,
+  "message": "the environment has deployed,default backend config can't be modified",
+  "status": "APIGATEWAY_BACKEND_CONFIG_MODIFY_ERROR"
+},	{
+  "code": 400,
+  "message": "the group has deployed,please let it offline",
+  "status": "APIGATEWAY_BIND_ERROR"
+},	{
+  "code": 400,
+  "message": "the group has deployed,please let it offline",
+  "status": "APIGATEWAY_UNBIND_ERROR"
+},	{
+  "code": 400,
+  "message": "{{.param0}}",
+  "status": "APIGATEWAY_INTERFACE_ERROR"
+},	{
+  "code": 500,
+  "message": "group info sync failed",
+  "status": "APIGATEWAY_API_GROUP_SYNC_FAIL"
+},	{
+  "code": 404,
+  "message": "connection time out",
+  "status": "APIGATEWAY_CONNECTION_TIME_OUT"
+},	{
+  "code": 409,
+  "message": "configuration repeated",
+  "status": "APIGATEWAY_CONFIGURATION_ISREPEAT"
+},	{
+  "code": 400,
+  "message": "character length is too long",
+  "status": "APIGATEWAY_CHARACTER_LENGTH_TOO_LONG"
+},	{
+  "code": 409,
+  "message": "uris repeated",
+  "status": "APIGATEWAY_URIS_ISREPEAT"
+},	{
+  "code": 409,
+  "message": "{{.param0}} service repeated",
+  "status": "APIGATEWAY_SERVICE_ISREPEAT"
+},	{
+  "code": 400,
+  "message": "backend config url is invalid",
+  "status": "APIGATEWAY_INVALID_BACKEND_URL"
+},	{
+  "code": 400,
+  "message": "invalid domain",
+  "status": "APIGATEWAY_INVALID_DOMAIN"
+},	{
+  "code": 400,
+  "message": "get user info failed",
+  "status": "APIGATEWAY_CONNECT_USER_INFO_ERROR"
 }]
