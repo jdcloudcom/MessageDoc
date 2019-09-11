@@ -130,4 +130,120 @@
 	"code": 500,
 	"message": "该用户未进行实名认证",
 	"status": "APIGATEWAY_INVALID_AUTHENTICATION_STATUS"
+}, {
+	"code": 400,
+	"message": "参数{{.param0}}存在错误",
+	"status": "APIGATEWAY_INVALID_ARGUMENT"
+},	{
+	"code": 409,
+	"message": "{{.param0}}重复",
+	"status": "APIGATEWAY_RESOURCE_ISREPEAT"
+},	{
+	"code": 409,
+	"message": "订阅密钥重复",
+	"status": "APIGATEWAY_SUBSCRIPTIONKEY_ISREPEAT"
+},	{
+	"code": 404,
+	"message": "该分组未发布",
+	"status": "APIGATEWAY_APIGROUP_NOT_DEPLOY"
+},	{
+	"code": 500,
+	"message": "yaml文件解析异常，{{.param0}}不能为空",
+	"status": "APIGATEWAY_SWAGGER_PARSE_ERROR_PARAMETER"
+},	{
+	"code": 403,
+	"message": "密钥数量超过最大值",
+	"status": "APIGATEWAY_KEY_NUM_IS_MAX"
+},	{
+	"code": 403,
+	"message": "参数数量超过最大值",
+	"status": "APIGATEWAY_PARAM_NUM_IS_MAX"
+},	{
+	"code": 400,
+	"message": "无效的微服务网关",
+	"status": "APIGATEWAY_NONE_VALID_JDSF_GATEWAY"
+},	{
+	"code": 400,
+	"message": "无效的后端转发地址",
+	"status": "APIGATEWAY_NONE_VALID_VPC_UPTREAM_URL"
+},	{
+	"code": 400,
+	"message": "无效的授权类型",
+	"status": "APIGATEWAY_NONE_VALID_AUTH_USER_TYPE"
+},	{
+	"code": 404,
+	"message": "访问授权与该分组不匹配",
+	"status": "APIGATEWAY_BIND_GROUP_NOT_FOUND"
+},	{
+	"code": 404,
+	"message": "微服务分组不存在",
+	"status": "APIGATEWAY_JDSF_GROUP_NOT_FOUND"
+},	{
+	"code": 404,
+	"message": "分组{{.param0}}未绑定微服务网关{{.param1}}",
+	"status": "APIGATEWAY_JDSF_GROUP_NO_BIND"
+},	{
+	"code": 404,
+	"message": "微服务网关已被其他分组绑定",
+	"status": "APIGATEWAY_JDSF_GATEWAY_IS_BOUND"
+},	{
+	"code": 404,
+	"message": "API分组已被绑定",
+	"status": "APIGATEWAY_API_GROUP_IS_BOUND"
+},	{
+	"code": 404,
+	"message": "该分组暂时不能绑定微服务网关",
+	"status": "APIGATEWAY_API_GROUP_IS_LOCKED"
+},	{
+	"code": 400,
+	"message": "{{.param0}}环境已经部署，默认后端配置不能被修改",
+	"status": "APIGATEWAY_BACKEND_CONFIG_MODIFY_ERROR"
+},	{
+	"code": 400,
+	"message": "API分组{{.param0}}已经部署{{.param1}}，请先下线分组",
+	"status": "APIGATEWAY_BIND_ERROR"
+},	{
+	"code": 400,
+	"message": "API分组{{.param0}}已经部署{{.param1}}，请先下线分组",
+	"status": "APIGATEWAY_UNBIND_ERROR"
+},	{
+	"code": 400,
+	"message": "{{.param0}}",
+	"status": "APIGATEWAY_INTERFACE_ERROR"
+},	{
+	"code": 500,
+	"message": "同步API分组信息失败",
+	"status": "APIGATEWAY_API_GROUP_SYNC_FAIL"
+},	{
+	"code": 404,
+	"message": "连接{{.param0}}超时",
+	"status": "APIGATEWAY_CONNECTION_TIME_OUT"
+},	{
+	"code": 409,
+	"message": "新增配置变更重复",
+	"status": "APIGATEWAY_CONFIGURATION_ISREPEAT"
+},	{
+	"code": 400,
+	"message": "查询长度超过{{.param0}}",
+	"status": "APIGATEWAY_CHARACTER_LENGTH_TOO_LONG"
+},	{
+	"code": 409,
+	"message": "在{{.param0}}下URIS重复",
+	"status": "APIGATEWAY_URIS_ISREPEAT"
+},	{
+	"code": 409,
+	"message": "{{.param0}}已接入",
+	"status": "APIGATEWAY_SERVICE_ISREPEAT"
+},	{
+	"code": 400,
+	"message": "不合法的后端配置地址",
+	"status": "APIGATEWAY_INVALID_BACKEND_URL"
+},	{
+	"code": 400,
+	"message": "不合法的域名",
+	"status": "APIGATEWAY_INVALID_DOMAIN"
+},	{
+	"code": 400,
+	"message": "获取用户信息失败",
+	"status": "APIGATEWAY_CONNECT_USER_INFO_ERROR"
 }]
