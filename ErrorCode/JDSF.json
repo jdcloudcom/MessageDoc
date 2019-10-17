@@ -258,5 +258,345 @@
         "code": 400,
         "status": "JDSF_FORWARD_ADDRESS_FORMAT_NOT_SUPPORT",
         "message": "转发地址格式不支持"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_PACKAGE_NOT_FOUND",
+        "message": "程序包未找到或已删除"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_PACKAGE_UPLOAD_STATUS_EXCEPTION",
+        "message": "程序包状态异常,不能进行下载操作"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_PACKAGE_DELETE_ERROR",
+        "message": "程序包删除错出现异常"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PACKAGE_DELETE_ERROR_UPLOADING",
+        "message": "正在上传的程序包不允许进行删除操作"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_PACKAGES_PARTLY_DELETE_ERROR",
+        "message": "程序包部分删除错误,请刷新网页后重试"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_PACKAGE_DELETE_ERROR_UPLOADING",
+        "message": "正在上传的程序包不允许进行删除操作"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PACKAGE_HAD_EXITED",
+        "message": "程序包已存在"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_PACKAGE_UPDATE_ERROR",
+        "message": "程序包上传失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PACKAGES_PARTLY_NOT_FOUND",
+        "message": "程序包资源不匹配"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PACKAGE_TYPE_NOT_SUPPORT",
+        "message": "程序包类型不支持，只支持 .war 与 .jar 格式"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_PACKAGE_GET_UPLOAD_URL_FAIL",
+        "message": "获取程序包上传地址失败"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_NAMESPACE_NOT_FOUND",
+        "message": "命名空间未找到"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_NAMESPACE_BIND_ERROR",
+        "message": "绑定命名空间失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_NAMESPACE_HAS_DEPLOY_GROUP_CAN_NOT_DELETE",
+        "message": "命名空间内有部署组不能进行删除操作"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_RESOURCE_POOL_NOT_FOUND",
+        "message": "资源池未找到"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_DEPLOY_GROUP_HAS_NO_INSTANCE",
+        "message": "部署组内未找到实例"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_DEPLOY_GROUP_DELETE_ERROR",
+        "message": "删除部署组出现异常"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_START_DEPLOY_GROUP_FAIL",
+        "message": "启动部署组内实例失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_START_DEPLOY_GROUP_HAS_INSTANCE_FAIL",
+        "message": "启动部署组内实例失败，实例 id 为{{.paramName}}"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_STOP_DEPLOY_GROUP_HAS_INSTANCE_FAIL",
+        "message": "停止部署组内实例失败，实例 id 为{{.paramName}}"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_STOP_DEPLOY_GROUP_FAIL",
+        "message": "停止部署组失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_START_APP_FAIL",
+        "message": "启动应用失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_STOP_APP_FAIL",
+        "message": "停止应用失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_RESOURCE_POOL_NAME_REPEAT",
+        "message": "资源池名称 在同一用户，同一区域不允许重复"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_DEPLOY_GROUP_NOT_FOUND",
+        "message": "未找到部署组"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_DEPLOY_NOT_FOUND",
+        "message": "未找到部署任务"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_DEPLOY_STAGE_LOG_NOT_FOUND",
+        "message": "未找到实例部署日志"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_DEPLOY_METHOD_TYPE_NOT_SUPPORT",
+        "message": "部署方法不支持"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_DEPLOY_APP_CONTAIN_DEPLOY_GROUP_CAN_NOT_DELETE",
+        "message": "因包含部署组应用不能进行删除"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_RESOURCE_POOL_DELETE_ERROR",
+        "message": "资源池删除失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_RESOURCE_POOL_EXISTED_DEPLOY_GROUPS_NOT_ALLOW_DELETE",
+        "message": "资源池存在部署组，不允许删除"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_RESOURCE_POOL_EXISTED_VPS_NOT_ALLOW_DELETE",
+        "message": "资源池含有云主机实例，不允许删除"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_RESOURCE_POOL_UPDATE_FAIL",
+        "message": "资源池含有云主机实例，不允许删除"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_RESUME_DEPLOY_FAIL",
+        "message": "重起部署失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_REDEPLOY_FAIL",
+        "message": "重起部署失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_RESOURCE_POOL_UPDATE_FAIL",
+        "message": "资源池更新失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_FILTER_VALUE_COUNT_NOT_SUPPORT",
+        "message": "过滤查询值不支持"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_DELETE_DEPLOY_FAIL",
+        "message": "删除部署历史失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_ROLLBACK_DEPLOY_FAIL",
+        "message": "回滚部署任务失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_STOP_DEPLOY_FAIL",
+        "message": "停止部署失败"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_RESOURCE_POOL_VPS_INSTANCE_NOT_FOUND",
+        "message": "资源池不包含当前实例"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_VPS_PARTLY_HAD_BOUND_OTHER_RESOURCE_POOL",
+        "message": "部分云主机实例已绑定到其他的资源池，请重新选择云主机实例"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_VPS_PARTLY_NOT_FOUND",
+        "message": "云主机实例不存在"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_VPS_DELETE_ERROR",
+        "message": "云主机实例删除失败 或部分删除失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_VPS_HAD_BOUND_DEPLOY_GROUPS_NOT_ALLOW_DELETE",
+        "message": "云主机已绑定部署组，不允许删除"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_PAUSE_ON_TYPE_NOT_SUPPORT",
+        "message": "分批暂停类型不支持"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_DEPLOY_FAIL",
+        "message": "创建部署任务失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_APP_AUTH_UPDATE_ERROR",
+        "message": "应用鉴权更新失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_APP_AUTH_RULE_ADD_ERROR",
+        "message": "添加鉴权规则失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_APP_AUTH_RULE_DELETE_ERROR",
+        "message": "鉴权规则删除失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_APP_AUTH_RULE_NAME_REPEAT",
+        "message": "添加鉴权规则失败，规则名称重复"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_AUTH_RULE_NOT_FOUND",
+        "message": "未找到该鉴权规则"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_SYSTEM_TAG_NOT_SUPPORT",
+        "message": "暂不支持此系统标签"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_SYSTEM_AUTH_TYPE_NOT_SUPPORT",
+        "message": "系统鉴权类型不支持"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_SYSTEM_OPERATOR_NOT_SUPPORT",
+        "message": "鉴权类型操作符不支持"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_RULE_TAGS_UPDATE_ERROR",
+        "message": "更新规则标签失败"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGISTRY_INSTANCE_NOT_RUNNING_CAN_NOT_CREATE_DEPLOY_GROUP",
+        "message": "注册中心状态异常不能创建部署组"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_REGISTRY_INSTANCE_NOT_RUNNING_CAN_NOT_CREATE_DEPLOY",
+        "message": "注册中心状态异常不能创建部署组"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_WAR_PACKAGE_ONLY_SUPPORT_RUN_TOMCAT",
+        "message": "war 包只支持使用 tomcat 环境进行部署"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_TOMCAT_ONLY_SUPPORT_RUN_WAR_PACKAGE",
+        "message": "tomcat 环境支持部署 war 包"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_APP_SERVICE_RULE_GROUP_EXITED",
+        "message": "服务治理规则组已存在"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_SERVICE_RULE_GROUP_NOT_FOUND",
+        "message": "服务治理规则组未找到"
+    },
+    {
+        "code": 404,
+        "status": "JDSF_APP_NOT_FOUND_IN_THIS_NAMESPACE",
+        "message": "当前命名空间下，未找到该应用"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_CONCURRENT_NUMBER_CAN_NOT_GREAT_THAN_INSTANCE_COUNT",
+        "message": "并发数量不能大于实例数量"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_CONCURRENT_PERCENT_CAN_NOT_GREAT_THAN_100_OR_LESS_THAN_0",
+        "message": "并发百分比不能大于 100 或者小于 0"
+    },
+    {
+        "code": 400,
+        "status": "JDSF_THRESHOLD_NUMBER_CAN_NOT_GREAT_THAN_INSTANCE_COUNT",
+        "message": "失败阈值不能大于实例数量"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_DELETE_RULE_GROUP_ERROR",
+        "message": "删除服务治理配置规则失败"
+    },
+    {
+        "code": 500,
+        "status": "JDSF_REFRESH_CONSUL_AUTH_KV_ERROR",
+        "message": "更新鉴权配置失败"
     }
 ]
