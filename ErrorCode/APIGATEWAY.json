@@ -246,4 +246,8 @@
 	"code": 400,
 	"message": "获取用户信息失败",
 	"status": "APIGATEWAY_CONNECT_USER_INFO_ERROR"
+},	{
+	"code": 400,
+	"message": "您还不能开通该分组",
+	"status": "APIGATEWAY_API_GROUP_NOT_ALLOWED_PURCHASE"
 }]
