@@ -73,5 +73,199 @@
     "code": 500,
     "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
     "status": "SALE_VPC_GROUP_WARN_FAIL"
+  },
+
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_NUMBER_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PRODUCT_ID_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PRODUCT_NO_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_SALE_PRICE_EMPTY"
+  },  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_BUY_COUNT_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_APP_CODE_EMPTY"
+  },  
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_SERVICE_CODE_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_GTE_PRODUCT_INFO_FAILED"
+  },  
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_APP_CODE_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_SERVICE_CODE_FAILED"
+  },  
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PRICE_VO_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PIN_EMPTY"
+  },  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_NOT_ONLINE"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_EXPIRE_DATE_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_DATA_FAILED"
+  },  
+  {
+    "code": 400,
+    "message": "Your user identity does not meet the conditions for participating in this promotional activity For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline",
+    "status": "SALE_CREATE_TIME_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_EXPIRE_DATE_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PURCHASE_TIME_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_USER_NOT_EXIST"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_USER_GROUP_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "Your user identity does not meet the conditions for participating in this promotional activity For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_USER_GROUP_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "Your user identity does not meet the conditions for participating in this promotional activity For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_USER_PIN_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_CALLING_SDK_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_GTE_BASEINFO_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "This activity is only for personal users. Welcome to other promotional activities For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PERSON_STATUS_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "This activity is only for personal users. Welcome to other promotional activities For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_COMPANY_STATUS_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "This activity is only for personal users. Welcome to other promotional activities For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_AUTH_STATUS_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "Your login account is a risk account and you have no right to participate in this activity. Please contact customer service For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_RISK_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current account has participated in this activity. Welcome to participate in other promotional activities For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_PIN"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_GET_ORDER_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The same enterprise can only participate in one account. Welcome to participate in other promotional activitiesFor more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_PREEMPT"
+  },
+  {
+    "code": 400,
+    "message": "Sorry, this activity is only available for the users who have no   purchase record For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_NOT_NEW_BUY"
+  },
+  {
+    "code": 400,
+    "message": "Please complete other order payment first For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PREEMPT"
+  },
+  {
+    "code": 400,
+    "message": "Please select the number  of  promotional product to purchase For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_BUY_COUNT_INVALID"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PRICE_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are not open yet, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_BUY_TIMEUNIT_NOT_FOUNT"
+  },  
+  {
+    "code": 400,
+    "message": "Promotional product have been sold out today. Welcome to visit tomorrow For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_DAILY_SALE_COUNT_FAILED"
+  },  
+  {
+    "code": 400,
+    "message": "You have purchased more than the maximum number of promotional products For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_PURCHASE_COUNT_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "Promotional product have been snapped up. Welcome to visit again For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_OUT_OF_STOCK"
   }
 ]
