@@ -1,12 +1,77 @@
 [
   {
     "code": 400,
-    "message": "not login",
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
     "status": "SALE_UN_LOGIN"
   },
   {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_BUY_SCENARIO_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_INFO_EMPTY"
+  },
+  {
     "code": 500,
-    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the Latest Activities or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
     "status": "SALE_GTE_ACTIVITY_FAILED"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_KAFKA_SALE_RECORD_EMPTY"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_ACTIVITY_NOT_EXIST"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_CONDITION_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_CLIENT_FAIL"
+  },
+  {
+    "code": 400,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_GROUP_CONDITION_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_WARN_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_SUBNET_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_SUBNET_WAIN_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_GROUP_FAIL"
+  },
+  {
+    "code": 500,
+    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "status": "SALE_VPC_GROUP_WARN_FAIL"
   }
 ]
