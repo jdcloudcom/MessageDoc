@@ -27,7 +27,7 @@
     "code": 400,
     "message": "子网不存在，请重新选择。",
     "status": "RDS_SUBNET_ID_NOT_FOUND",
-    "currentMessage": "RequestID  xxxx , subnet is not exits in vpc, error xxxx %!(EXTRA string=subnet.notfound:subnet xxxx is not exist)""
+    "currentMessage": "RequestID  xxxx , subnet is not exits in vpc, error xxxx %!(EXTRA string=subnet.notfound:subnet xxxx is not exist)"
   },
   {
     "code": 400,
