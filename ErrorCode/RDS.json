@@ -1,0 +1,62 @@
+[
+  {
+    "code": 400,
+    "message": "xxxx 参数不能为空，请输入。",
+    "status": "ParameterError.Invalid",
+    "currentMessage": " xxxx is invalid."
+  },
+  {
+    "code": 400,
+    "message": "实例规格无效，请输入正确的实例规格。",
+    "status": "ParameterError.Invalid",
+    "currentMessage": "flavor(instanceStorageType= xxxx , code= xxxx , disk= xxxx ) are invalid."
+  },
+  {
+    "code": 400,
+    "message": "参数类型不匹配，请重新选择。",
+    "status": "ParameterError.Invalid",
+    "currentMessage": "Parameter is invalid, scan false error"
+  },
+  {
+    "code": 400,
+    "message": "私有网络不存在，请重新选择。",
+    "status": "RDS_VPC_ID_NOT_FOUND",
+    "currentMessage": "RequestID xxxx , vpc is not exits, error xxxx %!(EXTRA string=vpc.notfound:vpc-0j6385l8uy111)"
+  },
+  {
+    "code": 400,
+    "message": "子网不存在，请重新选择。",
+    "status": "RDS_SUBNET_ID_NOT_FOUND",
+    "currentMessage": "RequestID  xxxx , subnet is not exits in vpc, error xxxx %!(EXTRA string=subnet.notfound:subnet xxxx is not exist)"
+  },
+  {
+    "code": 400,
+    "message": "当前可用区不可售卖，请重新选择。。",
+    "status": "ParameterError.Invalid",
+    "currentMessage": "AvailableZone(datacenter= xxxx ,availableZone= xxxx ) not found."
+  },
+  {
+    "code": 400,
+    "message": "根据时间点创建的源实例不存在，请业务确认实例是否已经被删除。",
+    "status": "RDS_BACKEND_ERROR",
+    "currentMessage": "RequestID  xxxx  GID  xxxx  does not exist"
+  },
+  {
+    "code": 400,
+    "message": " 资源售罄，请选择可售卖资源进行购买。",
+    "status": "PermissionError.ResourceAuthorization",
+    "currentMessage": "Resources are sold out"
+  },
+  {
+    "code": 400,
+    "message": " 您选择的时间点不在可选时间点范围内，请选择可选时间范围内的有效时间点。",
+    "status": "INVALID_ARGUMENT",
+    "currentMessage": "RequestID  xxxx , there is no available time window for time point create, window[2022-11-18 10:53:56,2022-11-18 15:19:46], point:  xxxx "
+  },
+  {
+    "code": 400,
+    "message": " 备份 xxxx 不可用，请选择可用的备份",
+    "status": "INVALID_ARGUMENT",
+    "currentMessage": "RequestID  xxxx  error message [query resource cluster ,  xxxx  not available]"
+  }
+]
