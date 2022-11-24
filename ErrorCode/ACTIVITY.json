@@ -1,7 +1,7 @@
 [
   {
     "code": 400,
-    "message": "The current promotional activities are too hot, please try again later For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline \"400-098-8505 ext. 1\" for expert help",
+    "message": "The current promotional activities are too hot, please try again later",
     "status": "ACTIVITY_NO_PRODUCT_EXIST"
   }
 ]
