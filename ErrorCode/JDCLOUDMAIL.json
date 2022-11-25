@@ -1,0 +1,57 @@
+[
+    {
+        "code":400,
+        "message":"Argument not support,please submit a work order for help.",
+        "status":"ARGUMENT_NOT_SUPPORT"
+    },
+    {
+        "code":400,
+        "message":"Argument not found,please submit a work order for help.",
+        "status":"ARGUMENT_NOT_FOUND"
+    },
+    {
+        "code":401,
+        "message":"Authentication failed,please submit a work order for help! Or consulting hotline「400-098-8505-2」for expert help.",
+        "status":"UNAUTHENTICATED"
+    },
+    {
+        "code":403,
+        "message":"System busy,please submit a work order for help!",
+        "status":"HTTP_FORBIDDEN"
+    },
+    {
+        "code":404,
+        "message":"Page not found,please submit a work order for help!",
+        "status":"NOT_FOUND"
+    },
+    {
+        "code":413,
+        "message":"The file upload size exceeds the limit.",
+        "status":"FILE_TOO_MAX"
+    },
+    {
+        "code":500,
+        "message":"System busy,please submit a work order for help!",
+        "status":"SYSTEM_ERROR"
+    },
+    {
+        "code":503,
+        "message":"System busy,please submit a work order for help!",
+        "status":"UNAVAILABLE"
+    },
+    {
+        "code":504,
+        "message":"System time out,please submit a work order for help!",
+        "status":"DEADLINE_EXCEEDED"
+    },
+    {
+        "code":5001,
+        "message":"Current version does not support renewal,please submit a work order for help! Or consulting hotline「400-098-8505-2」for expert help",
+        "status":"FORBID_TRAIL_RENEW"
+    },
+    {
+        "code":5002,
+        "message":"Unsupported parameter value, please submit the work order for help!",
+        "status":"NOT_SUPPORT_PARAM_VALUE"
+    }
+]
