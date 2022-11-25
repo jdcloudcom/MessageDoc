@@ -150,7 +150,7 @@
   },  
   {
     "code": 400,
-    "message": "Your user identity does not meet the conditions for participating in this promotional activity For more promotional activities, please click the \"Latest Activities\" or call the pre-sales hotline",
+    "message": "Your user identity does not meet the conditions for participating in this promotional activity",
     "status": "SALE_CREATE_TIME_FAILED"
   },
   {
