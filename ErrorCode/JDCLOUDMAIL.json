@@ -1,0 +1,57 @@
+[
+    {
+        "code":400,
+        "message":"不支持的参数，请提交工单寻求帮助！",
+        "status":"ARGUMENT_NOT_SUPPORT"
+    },
+    {
+        "code":400,
+        "message":"请求缺少参数，请提交工单寻求帮助！",
+        "status":"ARGUMENT_NOT_FOUND"
+    },
+    {
+        "code":401,
+        "message":"认证失败，请提交工单寻求帮助！或咨询电话「400-098-8505转2」 获得专家帮助",
+        "status":"UNAUTHENTICATED"
+    },
+    {
+        "code":403,
+        "message":"系统繁忙，请提交工单寻求帮助！",
+        "status":"HTTP_FORBIDDEN"
+    },
+    {
+        "code":404,
+        "message":"页面无法访问，请提交工单寻求帮助！",
+        "status":"NOT_FOUND"
+    },
+    {
+        "code":413,
+        "message":"文件上传大小超过限制。",
+        "status":"FILE_TOO_MAX"
+    },
+    {
+        "code":500,
+        "message":"系统繁忙，请提交工单寻求帮助！",
+        "status":"SYSTEM_ERROR"
+    },
+    {
+        "code":503,
+        "message":"系统繁忙，请提交工单寻求帮助！",
+        "status":"UNAVAILABLE"
+    },
+    {
+        "code":504,
+        "message":"系统超时，请提交工单寻求帮助！",
+        "status":"DEADLINE_EXCEEDED"
+    },
+    {
+        "code":5001,
+        "message":"此版本不支持续费，请提交工单寻求帮助！或咨询电话「400-098-8505转2」 获得专家帮助",
+        "status":"FORBID_TRAIL_RENEW"
+    },
+    {
+        "code":5002,
+        "message":"不支持的参数值，请提交工单寻求帮助！",
+        "status":"NOT_SUPPORT_PARAM_VALUE"
+    }
+]
