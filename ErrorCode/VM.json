@@ -1,0 +1,560 @@
+[
+{
+  "code": 400, 
+  "message": "Missing xxxx when using local device",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Missing xxxx when using local device"
+},
+{
+  "code": 404, 
+  "message": "DedicatedPool xxxx not found",
+  "status": "NOT_FOUND",
+  "currentMessage":"DedicatedPool xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "DedicatedHost xxxx not found",
+  "status": "NOT_FOUND",
+  "currentMessage":"DedicatedHost xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "LocalDevice xxxx not found",
+  "status": "NOT_FOUND",
+  "currentMessage":"LocalDevice xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "InstanceTemplate xxxx not found",
+  "status": "NOT_FOUND",
+  "currentMessage":"InstanceTemplate xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "Image xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"Image xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "Az xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"Az xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "InstanceType xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"InstanceType xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "Snapshot xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"Snapshot xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "SecurityGroup xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"SecurityGroup xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "Keypair xxxx not found",
+  "status": "NOT_FOUND",
+   "currentMessage":"Keypair xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "Instance xxxx not found.",
+  "status": "NOT_FOUND",
+   "currentMessage":"Instance xxxx not found."
+},
+{
+  "code": 404, 
+  "message": "DedicatedHost xxxx is not available.",
+  "status": "NOT_FOUND",
+   "currentMessage":"DedicatedHost xxxx is not available."
+},
+{
+  "code": 400, 
+  "message": "InstanceType xxxx is out of stock",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"InstanceType xxxx is out of stock"
+},
+{
+  "code": 400, 
+  "message": "Instance type xxxx unsupported in dedicated hosts.",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Instance type xxxx unsupported in dedicated hosts."
+},
+{
+  "code": 400, 
+  "message": "LocalDevice xxxx state invalid",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"LocalDevice xxxx state invalid"
+},
+{
+  "code": 400, 
+  "message": "LocalDevice xxxx not available",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"LocalDevice xxxx not available"
+},
+{
+  "code": 400, 
+  "message": "DedicatedHost xxxx is unavailable.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"DedicatedHost xxxx is unavailable."
+},
+{
+  "code": 400, 
+  "message": "InstanceTemplate xxxx Incorrect",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"InstanceTemplate xxxx Incorrect"
+},
+{
+  "code": 400, 
+  "message": "DiskSizeGB cannot be smaller than the snapshot xxxx size",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"DiskSizeGB cannot be smaller than the snapshot xxxx size"
+},
+{
+  "code": 400, 
+  "message": "Disk type xxxx is out of stock",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Disk type xxxx is out of stock"
+},
+{
+  "code": 400, 
+  "message": "Image xxxx not ready",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image xxxx not ready"
+},
+{
+  "code": 400, 
+  "message": "System disk size xxxx of image is larger than the instance",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"System disk size xxxx of image is larger than the instance"
+},
+{
+  "code": 400, 
+  "message": "Subnet xxxx not support ipv6",
+  "status": "CONFLICT",
+   "currentMessage":"Subnet xxxx not support ipv6"
+},
+{
+  "code": 400, 
+  "message": "Subnet xxxx is unsupported in independent edge zones.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Subnet xxxx in independent edge zones not support ipv6",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx in independent edge zones not support ipv6"
+},
+{
+  "code": 400, 
+  "message": "Subnet xxxx is unsupported in center zones.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx is unsupported in center zones."
+},
+{
+  "code": 400, 
+  "message": "instance xxxx in the recycle bin",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"instance xxxx in the recycle bin"
+},
+{
+  "code": 400, 
+  "message": "Local_data disk instance xxxx can't resize, resize need to apoint force parameter as true",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Local_data disk instance xxxx can't resize, resize need to apoint force parameter as true"
+},
+{
+  "code": 400, 
+  "message": "New system disk size xxxx is smaller than the instance",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"New system disk size xxxx is smaller than the instance"
+},
+{
+  "code": 400, 
+  "message": "Missing dedicatedHostId when using local device",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Missing dedicatedHostId when using local device"
+},
+{
+  "code": 400, 
+  "message": "Dedicated host is unsupported in independent edge zones.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Dedicated host is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Dedicated pool is unsupported in independent edge zones.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Dedicated pool is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Instance template is unsupported in current independent edge zone.",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Instance template is unsupported in current independent edge zone."
+},
+{
+  "code": 400, 
+  "message": "Instance cannot create image in independent edge zones.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Instance cannot create image in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Conflict AgId and DedicatedHostId",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and DedicatedHostId"
+},
+{
+  "code": 400, 
+  "message": "Conflict AgId and DedicatedPoolId",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and DedicatedPoolId"
+},
+{
+  "code": 400, 
+  "message": "Conflict AgId and InstanceTemplateId",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and InstanceTemplateId"
+},
+{
+  "code": 400, 
+  "message": "Conflict InstanceTemplateId and DedicatedHostId",
+  "status": "CONFLICT",
+   "currentMessage":"Conflict InstanceTemplateId and DedicatedHostId"
+},
+{
+  "code": 400, 
+  "message": "Invalid charge state",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Invalid charge state"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.ImageId missing",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.ImageId missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.InstanceType missing",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.InstanceType missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.Name missing",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.Name missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.PrimaryNetworkInterface missing",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.PrimaryNetworkInterface missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.PrimaryNetworkInterface.NetworkInterface.SubnetId missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.PrimaryNetworkInterface.NetworkInterface.SubnetId missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.SystemDisk missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.SystemDisk.DiskCategory missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.DiskCategory missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.SystemDisk.CloudDiskSpec missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.CloudDiskSpec missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.SystemDisk.CloudDiskSpec.DiskType missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.CloudDiskSpec.DiskType missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.Az missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.Az missing"
+},
+{
+  "code": 400, 
+  "message": "Invalid password",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Invalid password"
+},
+{
+  "code": 400, 
+  "message": "InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range"
+},
+{
+  "code": 400, 
+  "message": "InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range. Value must be multiple of 10",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range. Value must be multiple of 10"
+},
+{
+  "code": 400, 
+  "message": "Maxcount out of range",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"Maxcount out of range"
+},
+{
+  "code": 400, 
+  "message": "InstanceSpec.DataDisks out of range",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.DataDisks out of range"
+},
+{
+  "code": 400, 
+  "message": "InstanceType constraints. NetworkInterface out of range",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceType constraints. NetworkInterface out of range"
+},
+{
+  "code": 400, 
+  "message": "Devicename is not enough",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"Devicename is not enough"
+},
+{
+  "code": 400, 
+  "message": "InstanceType constraints. CloudDisk limit exceeded",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceType constraints. CloudDisk limit exceeded"
+},
+{
+  "code": 400, 
+  "message": "Malformed InstanceSpec.DataDisks.DiskCategory. Data disk must be cloud",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Malformed InstanceSpec.DataDisks.DiskCategory. Data disk must be cloud"
+},
+{
+  "code": 400, 
+  "message": "custom metadata pairs exceed xxxx .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata pairs exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "custom metadata key exceed xxxx .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata key exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "custom metadata value exceed xxxx .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata value exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "custom metadata del keys exceed xxxx .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata del keys exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "custom metadata add keys exceed xxxx .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata add keys exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "userdata value exceed 16KB .",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"userdata value exceed 16KB ."
+},
+{
+  "code": 400, 
+  "message": "Cloud system disk is unsupported in independent edge zones.",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Cloud system disk is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Local system disk is unsupported in independent edge zones.",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Local system disk is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Data disks must set 'NoDevice' in independent edge zones.",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Data disks must set 'NoDevice' in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.DataDisks.CloudDiskSpec missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskType missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskType missing"
+},
+{
+  "code": 400, 
+  "message": "Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskSizeGB missing",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskSizeGB missing"
+},
+{
+  "code": 400, 
+  "message": "Image constraints. User can't use localDisk image",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image constraints. User can't use localDisk image"
+},
+{
+  "code": 400, 
+  "message": "Do not support cross generation instanceType.",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Do not support cross generation instanceType."
+},
+{
+  "code": 400, 
+  "message": "Image constraints. Only support local system disk",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image constraints. Only support local system disk"
+},
+{
+  "code": 400, 
+  "message": "Image constraints. User can't use cloudDisk image",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Image constraints. User can't use cloudDisk image"
+},
+{
+  "code": 400, 
+  "message": "Image constraints. Only support cloud system disk",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Image constraints. Only support cloud system disk"
+},
+{
+  "code": 400, 
+  "message": "local system disk is not supported when using arm64 image.",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"local system disk is not supported when using arm64 image."
+},
+{
+  "code": 400, 
+  "message": "Resource is not enough",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Resource is not enough"
+},
+{
+  "code": 400, 
+  "message": "Please stop the instance first.",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Please stop the instance first."
+},
+{
+  "code": 400, 
+  "message": "InstanceType not change",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"InstanceType not change"
+},
+{
+  "code": 400, 
+  "message": "AutoImage policy only suppor cloud system disk.",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"AutoImage policy only suppor cloud system disk."
+},
+{
+  "code": 400, 
+  "message": "InstanceType constraints. NetworkInterface limit exceeded",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"InstanceType constraints. NetworkInterface limit exceeded"
+},
+{
+  "code": 400, 
+  "message": "Do not support resize instance.",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Do not support resize instance."
+},
+{
+  "code": 429, 
+  "message": "Instance quota limit exceeded",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "Instance cpu quota limit exceeded",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance cpu quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "Instance memory quota limit exceeded",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance memory quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "Instance local_disk quota limit exceeded",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance local_disk quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "Cloud Disk quota is empty",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Cloud Disk quota is empty"
+},
+{
+  "code": 429, 
+  "message": "Cloud Disk limit exceeded",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Cloud Disk limit exceeded"
+},
+{
+  "code": 404, 
+  "message": "Invalid system disk mount state",
+  "status": "NOT_FOUND",
+  "currentMessage":"Invalid system disk mount state"
+},
+{
+  "code": 404, 
+  "message": "Charge order not found",
+  "status": "NOT_FOUND",
+  "currentMessage":"Charge order not found"
+},
+{
+  "code": 500, 
+  "message": "Internal server error",
+  "status": "INTERNAL",
+  "currentMessage":"Internal server error"
+},
+{
+  "code": 500, 
+  "message": "Unknown server error",
+  "status": "UNKNOWN",
+  "currentMessage":"Unknown server error"
+}
+]
