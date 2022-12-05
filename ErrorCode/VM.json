@@ -1,0 +1,560 @@
+[
+{
+  "code": 400, 
+  "message": "使用本地设备时参数 xxxx 缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Missing xxxx when using local device"
+},
+{
+  "code": 404, 
+  "message": "所选专有宿主机池 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"DedicatedPool xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选专有宿主机 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"DedicatedHost xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选本地设备 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"LocalDevice xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选实例模板 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"InstanceTemplate xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选镜像 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"Image xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选可用区 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"Az xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选实例规格 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"InstanceType xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选快照 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"Snapshot xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选安全组 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"SecurityGroup xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选密钥对 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"Keypair xxxx not found"
+},
+{
+  "code": 404, 
+  "message": "所选主机 xxxx 未找到",
+  "status": "NOT_FOUND",
+   "currentMessage":"Instance xxxx not found."
+},
+{
+  "code": 404, 
+  "message": "所选专有宿主机 xxxx 不可用",
+  "status": "NOT_FOUND",
+   "currentMessage":"DedicatedHost xxxx is not available."
+},
+{
+  "code": 400, 
+  "message": "所选实例规格 xxxx 已售罄",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"InstanceType xxxx is out of stock"
+},
+{
+  "code": 400, 
+  "message": "所选实例规格 xxxx 不支持在专有宿主机中使用",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Instance type xxxx unsupported in dedicated hosts."
+},
+{
+  "code": 400, 
+  "message": "所选本地设备 xxxx 状态异常",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"LocalDevice xxxx state invalid"
+},
+{
+  "code": 400, 
+  "message": "所选本地设备 xxxx 不可用",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"LocalDevice xxxx not available"
+},
+{
+  "code": 400, 
+  "message": "所选专有宿主机 xxxx 不可用",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"DedicatedHost xxxx is unavailable."
+},
+{
+  "code": 400, 
+  "message": "所选实例模板 xxxx 错误",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"InstanceTemplate xxxx Incorrect"
+},
+{
+  "code": 400, 
+  "message": "云硬盘容量不能小于镜像 xxxx 大小",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"DiskSizeGB cannot be smaller than the snapshot xxxx size"
+},
+{
+  "code": 400, 
+  "message": "类型为 xxxx 的云硬盘已售罄",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Disk type xxxx is out of stock"
+},
+{
+  "code": 400, 
+  "message": "所选镜像 xxxx 处于不可用状态",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image xxxx not ready"
+},
+{
+  "code": 400, 
+  "message": "所选镜像大小 xxxx 超过云主机当前系统盘容量",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"System disk size xxxx of image is larger than the instance"
+},
+{
+  "code": 400, 
+  "message": "所选子网 xxxx 不支持IPv6",
+  "status": "CONFLICT",
+   "currentMessage":"Subnet xxxx not support ipv6"
+},
+{
+  "code": 400, 
+  "message": "所选子网 xxxx 不支持在边缘可用区使用",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "所选子网 xxxx 在边缘可用区子网不支持ipv6",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx in independent edge zones not support ipv6"
+},
+{
+  "code": 400, 
+  "message": "所选子网 xxxx 不支持在中心可用区使用",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Subnet xxxx is unsupported in center zones."
+},
+{
+  "code": 400, 
+  "message": "所选实例 xxxx 目前处于回收站中",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"instance xxxx in the recycle bin"
+},
+{
+  "code": 400, 
+  "message": "本地数据盘实例 xxxx 不支持调整配置,如需调整需要指定强制调整参数,本地盘数据将被清空",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Local_data disk instance xxxx can't resize, resize need to apoint force parameter as true"
+},
+{
+  "code": 400, 
+  "message": "新系统盘大小 xxxx （单位GB）小于实例系统盘",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"New system disk size xxxx is smaller than the instance"
+},
+{
+  "code": 400, 
+  "message": "使用本地设备时缺失专有宿主机ID",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Missing dedicatedHostId when using local device"
+},
+{
+  "code": 400, 
+  "message": "边缘可用区不支持专有宿主机",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Dedicated host is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "边缘可用区不支持专有宿主机池",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Dedicated pool is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "所选边缘可用区不支持实例模板",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Instance template is unsupported in current independent edge zone."
+},
+{
+  "code": 400, 
+  "message": "边缘可用区暂不支持自动镜像任务",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Instance cannot create image in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "高可用组和专有宿主机不可同时指定",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and DedicatedHostId"
+},
+{
+  "code": 400, 
+  "message": "高可用组和专有宿主机池不可同时指定",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and DedicatedPoolId"
+},
+{
+  "code": 400, 
+  "message": "高可用组和实例模板不可同时指定",
+  "status": "CONFLICT",
+  "currentMessage":"Conflict AgId and InstanceTemplateId"
+},
+{
+  "code": 400, 
+  "message": "实例模板和专有宿主机不可同时指定",
+  "status": "CONFLICT",
+   "currentMessage":"Conflict InstanceTemplateId and DedicatedHostId"
+},
+{
+  "code": 400, 
+  "message": "计费状态无效",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Invalid charge state"
+},
+{
+  "code": 400, 
+  "message": "参数 InstanceSpec.ImageId 缺失",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.ImageId missing"
+},
+{
+  "code": 400, 
+  "message": "参数 InstanceSpec.InstanceType 缺失",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.InstanceType missing"
+},
+{
+  "code": 400, 
+  "message": "参数 InstanceSpec.Name 缺失",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.Name missing"
+},
+{
+  "code": 400, 
+  "message": "参数 InstanceSpec.PrimaryNetworkInterface 缺失",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Parameter InstanceSpec.PrimaryNetworkInterface missing"
+},
+{
+  "code": 400, 
+  "message": "参数 InstanceSpec.PrimaryNetworkInterface.NetworkInterface.SubnetId 缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.PrimaryNetworkInterface.NetworkInterface.SubnetId missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk.DiskCategory缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.DiskCategory missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk.CloudDiskSpec缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.CloudDiskSpec missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk.CloudDiskSpec.DiskType缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.SystemDisk.CloudDiskSpec.DiskType missing"
+},
+{
+  "code": 400, 
+  "message": "参数Parameter InstanceSpec.Az missing缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.Az missing"
+},
+{
+  "code": 400, 
+  "message": "密码无效",
+  "status": "INVALID_ARGUMENT",
+  "currentMessage":"Invalid password"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB超出范围",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB超出范围,其值必须是10的倍数",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.SystemDisk.CloudDiskSpec.DiskSizeGB out of range. Value must be multiple of 10"
+},
+{
+  "code": 400, 
+  "message": "创建数量超过允许上限",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"Maxcount out of range"
+},
+{
+  "code": 400, 
+  "message": "创建数据盘数量超过允许上限",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceSpec.DataDisks out of range"
+},
+{
+  "code": 400, 
+  "message": "创建NetworkInterface数量超过允许上限",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceType constraints. NetworkInterface out of range"
+},
+{
+  "code": 400, 
+  "message": "未指定数据盘设备名",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"Devicename is not enough"
+},
+{
+  "code": 400, 
+  "message": "云硬盘数量超过实例规格允许上限",
+  "status": "OUT_OF_RANGE",
+   "currentMessage":"InstanceType constraints. CloudDisk limit exceeded"
+},
+{
+  "code": 400, 
+  "message": "数据盘仅支持云硬盘",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Malformed InstanceSpec.DataDisks.DiskCategory. Data disk must be cloud"
+},
+{
+  "code": 400, 
+  "message": "自定义metadata数量超过上限 xxxx 对",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata pairs exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "自定义metadata key数量超过上限 xxxx 个",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata key exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "自定义metadata value数量超过上限 xxxx 个",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata value exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "自定义metadata 删除key数量超过上限 xxxx 个",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata del keys exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "自定义metadata 新增key数量超过上限 xxxx 个",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"custom metadata add keys exceed xxxx ."
+},
+{
+  "code": 400, 
+  "message": "userdata长度超过上限16KB",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"userdata value exceed 16KB ."
+},
+{
+  "code": 400, 
+  "message": "所选边缘可用区不支持云硬系统盘",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Cloud system disk is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "所选边缘可用区不支持本地系统盘",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Local system disk is unsupported in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "边缘可用区必须将数据盘设为NoDevice",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Data disks must set 'NoDevice' in independent edge zones."
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.DataDisks.CloudDiskSpec缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.DataDisks.CloudDiskSpec.DiskType缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskType missing"
+},
+{
+  "code": 400, 
+  "message": "参数InstanceSpec.DataDisks.CloudDiskSpec.DiskSizeGB缺失",
+  "status": "INVALID_ARGUMENT",
+   "currentMessage":"Parameter InstanceSpec.DataDisks.CloudDiskSpec.DiskSizeGB missing"
+},
+{
+  "code": 400, 
+  "message": "不支持使用本地系统盘镜像",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image constraints. User can't use localDisk image"
+},
+{
+  "code": 400, 
+  "message": "本地系统盘实例不允许跨规格代数调整",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Do not support cross generation instanceType."
+},
+{
+  "code": 400, 
+  "message": "所选镜像仅支持本地系统盘",
+  "status": "FAILED_PRECONDITION",
+   "currentMessage":"Image constraints. Only support local system disk"
+},
+{
+  "code": 400, 
+  "message": "不支持使用云硬盘镜像",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Image constraints. User can't use cloudDisk image"
+},
+{
+  "code": 400, 
+  "message": "所选镜像仅支持云盘系统盘。",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Image constraints. Only support cloud system disk"
+},
+{
+  "code": 400, 
+  "message": "arm64架构的镜像不支持本地系统盘",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"local system disk is not supported when using arm64 image."
+},
+{
+  "code": 400, 
+  "message": "资源不足",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Resource is not enough"
+},
+{
+  "code": 400, 
+  "message": "请先关机。",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Please stop the instance first."
+},
+{
+  "code": 400, 
+  "message": "实例规格没有变化",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"InstanceType not change"
+},
+{
+  "code": 400, 
+  "message": "自动镜像策略仅支持云盘系统盘实例",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"AutoImage policy only suppor cloud system disk."
+},
+{
+  "code": 400, 
+  "message": "所设网卡超过实例规格支持的网卡数量上限",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"InstanceType constraints. NetworkInterface limit exceeded"
+},
+{
+  "code": 400, 
+  "message": "不支持调整配置",
+  "status": "FAILED_PRECONDITION",
+  "currentMessage":"Do not support resize instance."
+},
+{
+  "code": 429, 
+  "message": "云主机可用配额不足",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "云主机CPU可用配额不足",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance cpu quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "云主机内存可用配额不足",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance memory quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "云主机本地盘可用配额不足",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Instance local_disk quota limit exceeded"
+},
+{
+  "code": 429, 
+  "message": "云硬盘无可用配额",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Cloud Disk quota is empty"
+},
+{
+  "code": 429, 
+  "message": "云硬盘可用配额不足",
+  "status": "QUOTA_EXCEEDED",
+  "currentMessage":"Cloud Disk limit exceeded"
+},
+{
+  "code": 404, 
+  "message": "系统盘挂载状态异常",
+  "status": "NOT_FOUND",
+  "currentMessage":"Invalid system disk mount state"
+},
+{
+  "code": 404, 
+  "message": "计费订单未找到",
+  "status": "NOT_FOUND",
+  "currentMessage":"Charge order not found"
+},
+{
+  "code": 500, 
+  "message": "服务内部错误",
+  "status": "INTERNAL",
+  "currentMessage":"Internal server error"
+},
+{
+  "code": 500, 
+  "message": "未知错误",
+  "status": "UNKNOWN",
+  "currentMessage":"Unknown server error"
+}
+]
