@@ -43,7 +43,7 @@
   },
   {
     "code": 404,
-    "message": "请求XXXX错误，资源XXXX不可用，请选择可用的资源",
+    "message": "请求XXXX错误，资源XXXX不可用，请选择可用的资源。",
     "status": "RDS_BACKEND_ERROR",
     "currentMessage": "RequestID xxxx GID xxxx does not exist"
   },
@@ -67,13 +67,13 @@
   },
   {
     "code": 404,
-    "message": "请求XXXX错误，备份XXXX不可用，请选择可用的备份",
+    "message": "请求XXXX错误，备份XXXX不可用，请选择可用的备份。",
     "status": "INVALID_ARGUMENT",
     "currentMessage": "RequestID xxxx error message [query resource cluster , xxxx not available]"
   },
   {
     "code": 500,
-    "message": "参数组不匹配，请重新选择",
+    "message": "参数组不匹配，请重新选择。",
     "status": "InternalError",
     "currentMessage": "ConfigGroupId is not found"
   }
