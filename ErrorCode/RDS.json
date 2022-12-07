@@ -43,7 +43,7 @@
   },
   {
     "code": 404,
-    "message": "请求XXXX错误，资源XXXX不可用，请选择可用的资源。",
+    "message": "请求xxxx错误，资源xxxx不可用，请选择可用的资源。",
     "status": "RDS_BACKEND_ERROR",
     "currentMessage": "RequestID xxxx GID xxxx does not exist"
   },
@@ -51,7 +51,7 @@
     "code": 400,
     "message": "您选择的时间点不在可选时间点范围内，请选择可选时间范围内的有效时间点。",
     "status": "INVALID_ARGUMENT",
-    "currentMessage": "RequestID xxxx, there is no available time window for time point create, window[xxxx,xxxx], point: xxxx xxxx"
+    "currentMessage": "RequestID xxxx, there is no available time window for time point create, window[xxxx xxxx,xxxx xxxx], point: xxxx xxxx"
   },
   {
     "code": 400,
@@ -63,11 +63,11 @@
     "code": 400,
     "message": "备份不可用，请选择可选时间范围内的有效时间点。",
     "status": "ParameterError.BackendInvalid",
-    "currentMessage": "RBackupType is snapshot, instanceStorageType must be [xxxx] or [xxxx]"
+    "currentMessage": "BackupType is snapshot, instanceStorageType must be [xxxx] or [xxxx]"
   },
   {
     "code": 404,
-    "message": "请求XXXX错误，备份XXXX不可用，请选择可用的备份。",
+    "message": "请求xxxx错误，备份xxxx不可用，请选择可用的备份。",
     "status": "INVALID_ARGUMENT",
     "currentMessage": "RequestID xxxx error message [query resource cluster , xxxx not available]"
   },
